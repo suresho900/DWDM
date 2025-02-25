@@ -1,0 +1,22 @@
+box_no=c("box1","box2","box3","box4","box5","box6","box7","box8","box9","box10") pencil=c(9,25,23,12,11,6,7,8,9,10) df<-data.frame(box_no,pencil) 
+print(df) 
+mean(pencil) 
+median(pencil) #mode 
+mode=names(which.max(table(pencil))) print(mode) 
+OUTPUT- 
+> data.frame(box_NO,pencil)    box_NO pencil 
+1	box1      9 
+2	box2     25 
+3	box3     23 
+4	box4     12 
+5	box5     11 
+6	box6      6 
+7	box7      7 
+8	box8      8 
+9	box9      9 
+10	box10     10 > mean(pencil) 
+[1] 12 
+> median(pencil) 
+[1] 9.5 
+> print(mode) 
+[1] "9" 
